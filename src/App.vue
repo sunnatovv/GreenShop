@@ -4,6 +4,7 @@ import Intro from "./components/Intro.vue"
 import Intro2 from "./components/Intro2.vue"
 import AfterIntro from "./components/AfterIntro.vue"
 import Blog from "./components/Blog.vue"
+import Footer from "./components/Footer.vue"
 
 export default {
   components: {
@@ -11,7 +12,8 @@ export default {
     Intro,
     Intro2,
     AfterIntro,
-    Blog
+    Blog,
+    Footer
   },
   data() {
     return {
@@ -49,6 +51,7 @@ export default {
 
   <AfterIntro/>
   <Blog/>
+  <Footer/>
 </template>
 
 
