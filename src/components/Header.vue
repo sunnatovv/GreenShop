@@ -47,10 +47,10 @@ const modal = () => {
           </div>
         </div>
         <button
-          class="bg-[#46A358] flex items-center gap-2 px-5 py-2 rounded-[6px]"
+          class="bg-[#46A358] flex items-center gap-2 px-5 py-2 rounded-[6px]" @click="modal"
         >
           <img src="../../public/Logout.png" alt="" />
-          <span class="Login text-[#fff]" @click="modal">Login</span>
+          <span class="Login text-[#fff]" >Login</span>
         </button>
       </div>
     </div>
@@ -119,7 +119,7 @@ const modal = () => {
             Login
           </button>
 
-          <p class="m-[26px] text-[13px] w-[60%] mx-auto text-center relative">
+          <p class="my-[10px] text-[13px] w-[60%] mx-auto text-center relative">
             <svg
               class="items-center absolute ml-10 size-6"
               xmlns="http://www.w3.org/2000/svg"
@@ -291,12 +291,4 @@ const modal = () => {
   border-bottom: 3px solid #46a358;
 }
 
-.Login {
-  margin-right: 5px;
-  padding: 8px 28px;
-  background: #46a358;
-  border-radius: 6px;
-  color: #fff;
-  font-weight: 600;
-}
 </style>
