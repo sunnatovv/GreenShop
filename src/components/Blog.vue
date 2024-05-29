@@ -8,7 +8,7 @@
       plants.
     </p>
 
-    <div class="grid grid-cols-4 gap-20 mt-[35px]">
+    <div class="grid md:grid-cols-4 gap-20 mt-[35px] md:px-0 px-4">
         <OneGrid v-for="item in 4"/>
     </div>
   </div>

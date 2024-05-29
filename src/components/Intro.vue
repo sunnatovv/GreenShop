@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <div class="flex justify-between bg-[#F5F5F580] mt-3">
+    <div class="flex flex-wrap md:flex-nowrap justify-between bg-[#F5F5F580] mt-3">
       <div class="w-2/4 pl-12 py-20">
         <p class="text-[#3D3D3D] font-medium uppercase">Welcome to greenshop</p>
         <h1 class="tracking-wide py-3 text-[80px] uppercase font-extrabold leading-[80px]">
@@ -21,7 +21,7 @@
       </div>
       <!-- second div  -->
       <div class="relative flex justify-between items-center pr-10">
-        <img class="absolute bottom-[37px] left-[50px]" src="../../public/littleFlower.png" alt="" />
+        <img class="absolute md:bottom-[37px] md:left-[50px] left-[25px] bottom-[25px]" src="../../public/littleFlower.png" alt="" />
         <img src="../../public/bigFlower.png" alt="" />
       </div>
     </div>

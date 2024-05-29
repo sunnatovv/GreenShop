@@ -14,7 +14,7 @@ const modal = () => {
         <img src="../../public/Vector (5).png" alt="" />
         <p class="text-[#46A358] font-bold">GREENSHOP</p>
       </div>
-      <div class="flex justify-between items-center gap-20">
+      <div class="md:flex justify-between items-center gap-20 hidden">
         <a
           href="#"
           class="font-normal text-[#3D3D3D] hover:text-green-700 hover:font-bold duration-300 hover:border-b-2"

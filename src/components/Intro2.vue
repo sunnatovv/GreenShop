@@ -1,8 +1,8 @@
 <template>
   <div class="container mt-14">
-    <div class="grid grid-cols-4 gap-10">
+    <div class="grid md:grid-cols-4 gap-10 grid-cols-2">
       <!-- first grid  -->
-      <div class="col-span-1 bg-[#FBFBFB]">
+      <div class="md:col-span-1 col-span-2 bg-[#FBFBFB]">
         <h3 class="pt-5 px-5 pb-2 font-bold text-[#3D3D3D] text-[18px]">
           Categories
         </h3>
@@ -43,7 +43,7 @@
         </div>
       </div>
       <!-- second grid  -->
-      <div class="col-span-3">
+      <div class="md:col-span-3 col-span-2">
         <div class="flex justify-between">
           <div class="flex gap-16">
             <a
@@ -63,13 +63,13 @@
             >
           </div>
 
-          <div class="flex gap-2 items-center text-[#3D3D3D] text-[18px]">
+          <div class="md:flex hidden gap-2 items-center text-[#3D3D3D] text-[18px]">
             <p>Sort by:</p>
             <p>Default sorting</p>
             <img src="../../public/down.png" alt="" />
           </div>
         </div>
-        <div class="grid grid-cols-3 gap-x-16 gap-y-[44px] mt-5">
+        <div class="grid md:grid-cols-3 grid-cols-2 gap-x-16 gap-y-[44px] mt-5">
           <Intro_card2 v-for="item in 9" />
         </div>
       </div>
@@ -93,11 +93,11 @@ export default {
         { name: "Gardening", amount: "(13)" },
         { name: "Accessories", amount: "(18)" },
       ],
-      plantSizes : [
-  { name: "Small", amount: "(119)" },
-  { name: "Medium", amount: "(86)" },
-  { name: "Large", amount: "(78)" }
-]
+      plantSizes: [
+        { name: "Small", amount: "(119)" },
+        { name: "Medium", amount: "(86)" },
+        { name: "Large", amount: "(78)" },
+      ],
     };
   },
 
