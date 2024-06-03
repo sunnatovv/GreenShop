@@ -9,7 +9,7 @@ export default {
   <div class="container flex md:flex-nowrap flex-wrap mt-[100px] md:gap-[62px] gap-[50px] bg-[#FBFBFB] p-[24px]">
     <div class="grid md:grid-cols-3  grid-cols-2 p-[10px] gap-[62px]">
       <div class="">
-        <img src="/public/tuvak.png" alt="" />
+        <img src="/tuvak.png" alt="" />
         <h2>Garden Care</h2>
         <p>
           We are an online plant shop offering a wide range of cheap and trendy
@@ -17,7 +17,7 @@ export default {
         </p>
       </div>
       <div class="">
-        <img src="/public/tuvak.png" alt="" />
+        <img src="/tuvak.png" alt="" />
         <h2>Garden Care</h2>
         <p>
           We are an online plant shop offering a wide range of cheap and trendy
@@ -25,7 +25,7 @@ export default {
         </p>
       </div>
       <div class="md:col-span-1 col-span-2 md:px-0 px-[20%]">
-        <img src="/public/tuvak.png" alt="" />
+        <img src="/tuvak.png" alt="" />
         <h2>Garden Care</h2>
         <p>
           We are an online plant shop offering a wide range of cheap and trendy
@@ -44,17 +44,17 @@ export default {
     </div>
   </div>
   <div class="container bg-[#ecf6ee] py-[34px] px-[40px] grid md:grid-cols-4 grid-cols-2 gap-12 items-center">
-    <img src="/public/logotip.png" alt="" />
-    <div class="md:flex">
-      <img src="/public/Location.png" alt="" />
+    <img src="/logotip.png" alt="" />
+    <div class="md:flex items-center gap-3">
+      <img src="/Location.png" alt="" />
       <p>70 West Buckingham Ave. Farmingdale, NY 11735</p>
     </div>
-    <div class="md:flex">
-      <img src="/public/Location.png" alt="" />
+    <div class="md:flex items-center gap-2 ">
+      <img src="/Location.png" alt="" />
       <p>contact@greenshop.com</p>
     </div>
-    <div class="md:flex">
-      <img src="/public/Location.png" alt="" />
+    <div class="md:flex items-center gap-2">
+      <img src="/Location.png" alt="" />
       <p class="w-[]">+88 01911 717 490</p>
     </div>
   </div>

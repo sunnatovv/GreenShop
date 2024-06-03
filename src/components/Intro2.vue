@@ -35,11 +35,11 @@
           </li>
         </ul>
         <div class="bg-[#46A3581A]">
-          <img class="mx-auto" src="../../public/Super_Sale.png" alt="" />
+          <img class="mx-auto" src="/Super_Sale.png" alt="" />
           <h3 class="text-center font-bold text-[23px] text-[#3D3D3D]">
             UP TO 75% OFF
           </h3>
-          <img class="mx-auto" src="../../public/floww.png" alt="" />
+          <img class="mx-auto" src="/floww.png" alt="" />
         </div>
       </div>
       <!-- second grid  -->
@@ -66,7 +66,7 @@
           <div class="md:flex hidden gap-2 items-center text-[#3D3D3D] text-[18px]">
             <p>Sort by:</p>
             <p>Default sorting</p>
-            <img src="../../public/down.png" alt="" />
+            <img src="/down.png" alt="" />
           </div>
         </div>
         <div class="grid md:grid-cols-3 grid-cols-2 gap-x-16 gap-y-[44px] mt-5">

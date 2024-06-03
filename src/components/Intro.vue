@@ -21,8 +21,8 @@
       </div>
       <!-- second div  -->
       <div class="relative flex justify-between items-center pr-10">
-        <img class="absolute md:bottom-[37px] md:left-[50px] left-[25px] bottom-[25px]" src="../../public/littleFlower.png" alt="" />
-        <img src="../../public/bigFlower.png" alt="" />
+        <img class="absolute md:bottom-[37px] md:left-[50px] left-[25px] bottom-[25px]" src="/littleFlower.png" alt="" />
+        <img src="/bigFlower.png" alt="" />
       </div>
     </div>
   </div>

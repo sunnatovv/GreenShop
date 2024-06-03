@@ -11,20 +11,19 @@ const modal = () => {
   <div class="container">
     <div class="flex justify-between items-center py-8 border-b">
       <div class="flex items-center gap-2">
-        <img src="../../public/Vector (5).png" alt="" />
+        <img src="/Vector (5).png" alt="" />
         <p class="text-[#46A358] font-bold">GREENSHOP</p>
       </div>
       <div class="md:flex justify-between items-center gap-20 hidden">
         <a
-          href="#"
+          href="/"
           class="font-normal text-[#3D3D3D] hover:text-green-700 hover:font-bold duration-300 hover:border-b-2"
           >Home</a
         >
-        <a
-          href="#"
-          class="text-[#3D3D3D] hover:text-green-700 hover:font-bold duration-300 hover:border-b-2"
-          >Shop</a
-        >
+        <a href="/shop" 
+          class="text-[#3D3D3D] hover:text-green-700 hover:font-bold duration-300 hover:border-b-2">Shop</a>
+
+          
         <a
           href="#"
           class="text-[#3D3D3D] hover:text-green-700 hover:font-bold duration-300 hover:border-b-2"
@@ -37,9 +36,9 @@ const modal = () => {
         >
       </div>
       <div class="flex justify-between items-center gap-6">
-        <img src="../../public/loop.png" alt="" />
+        <img src="/loop.png" alt="" />
         <div class="relative pr-2">
-          <img src="../../public/korzina.png" alt="" />
+          <img src="/korzina.png" alt="" />
           <div
             class="font-serif absolute px-[5px] border-[3px] rounded-full text-[#fff] bg-[#46A358] text-[10px] top-[-4px] right-[-2px]"
           >
@@ -49,7 +48,7 @@ const modal = () => {
         <button
           class="bg-[#46A358] flex items-center gap-2 px-5 py-2 rounded-[6px]" @click="modal"
         >
-          <img src="../../public/Logout.png" alt="" />
+          <img src="/Logout.png" alt="" />
           <span class="Login text-[#fff]" >Login</span>
         </button>
       </div>

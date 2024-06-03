@@ -2,7 +2,7 @@
   <div class="container flex md:flex-nowrap flex-wrap justify-between gap-10 mb-20">
     <div v-for="item,index in 2" :key="index" class="relative md:flex justify-around items-center bg-[#FBFBFB]">
       <div class="md:w-6/12 relative flex w-full md:block justify-center">
-        <img class="md:absolute top-[-160px] md:m-0  " src="../../public/imagePos.png" alt="" />
+        <img class="md:absolute top-[-160px] md:m-0  " src="/imagePos.png" alt="" />
       </div>
       <div class="md:text-end text-left md:pr-8 md:w-10/12 px-10 " >
         <h2 class="font-extrabold text-[24px] pt-8"  >SUMMER CACTUS</h2>
@@ -16,7 +16,7 @@
         >
           Find more
         </button>
-        <img class="absolute left-0 bottom-0" src="../../public/Ellipse.png" alt="some">
+        <img class="absolute left-0 bottom-0" src="/Ellipse.png" alt="some">
       </div>
     </div>
 <!-- <div class="relative md:flex justify-around items-center bg-[#FBFBFB]">
